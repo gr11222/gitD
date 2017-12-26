@@ -1,0 +1,18 @@
+diff a/1.txt b/1.txt	(rejected hunks)
+@@ -11,4 +11,14 @@
+ 2
+ 
+ 2
+-2
+\ No newline at end of file
++2
++=======
++dwadsdasdd
++s
++d
++sa
++d
++sa
++d
++sa
++>>>>>>> 932cd275b040121ff58214e52f0ec0758fdad9b3

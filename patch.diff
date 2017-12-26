@@ -1,0 +1,68 @@
+From cf703498e98b4339aba69949b42cae80acd1051e Mon Sep 17 00:00:00 2001
+From: unknown <guorong@zc-hk.cn>
+Date: Tue, 26 Dec 2017 08:59:12 +0800
+Subject: [PATCH] no message
+
+---
+ 1.txt     | 25 +------------------------
+ 1.txt.rej | 18 ++++++++++++++++++
+ 2 files changed, 19 insertions(+), 24 deletions(-)
+ create mode 100644 1.txt.rej
+
+diff --git a/1.txt b/1.txt
+index c32bcaa..d00491f 100644
+--- a/1.txt
++++ b/1.txt
+@@ -1,24 +1 @@
+-<<<<<<< HEAD
+-dwad
+-22222222
+-2
+-
+-2
+-
+-2
+-2
+-2
+-2
+-
+-2
+-2
+-=======
+-dwadsdasdd
+-s
+-d
+-sa
+-d
+-sa
+-d
+-sa
+->>>>>>> 932cd275b040121ff58214e52f0ec0758fdad9b3
++1
+diff --git a/1.txt.rej b/1.txt.rej
+new file mode 100644
+index 0000000..af1b952
+--- /dev/null
++++ b/1.txt.rej
+@@ -0,0 +1,18 @@
++diff a/1.txt b/1.txt	(rejected hunks)
++@@ -11,4 +11,14 @@
++ 2
++ 
++ 2
++-2
++\ No newline at end of file
+++2
+++=======
+++dwadsdasdd
+++s
+++d
+++sa
+++d
+++sa
+++d
+++sa
+++>>>>>>> 932cd275b040121ff58214e52f0ec0758fdad9b3
+-- 
+2.11.0.windows.1
+
